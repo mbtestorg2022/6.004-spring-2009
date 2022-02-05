@@ -73,10 +73,63 @@ The final grade is determined by performance on the quizzes (25 points/quiz, 125
 
 Once your combined score has been computed as explained above, here's how grades will be assigned:
 
-| GRADES | REQUIREMENTS |
-| --- | --- |
-| A | 170 <= total points |
-| B | 150 <= total points < 170 |
-| C | 130 <= total points < 150 |
-| D | 110 <= total points < 130 |
-| F | total points < 110, missing required lab
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+GRADES
+{{< thclose >}}
+{{< thopen >}}
+REQUIREMENTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+A
+{{< tdclose >}}
+{{< tdopen >}}
+170 \<= total points
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+B
+{{< tdclose >}}
+{{< tdopen >}}
+150 \<= total points \< 170
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+C
+{{< tdclose >}}
+{{< tdopen >}}
+130 \<= total points \< 150
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+D
+{{< tdclose >}}
+{{< tdopen >}}
+110 \<= total points \< 130
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+F
+{{< tdclose >}}
+{{< tdopen >}}
+total points \< 110, missing required lab
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

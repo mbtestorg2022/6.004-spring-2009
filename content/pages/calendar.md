@@ -12,30 +12,399 @@ CMOS = complementary metal-oxide-semiconductor
 ALU = arithmetic logic unit  
 OS = operating system
 
-| LEC # | TOPICS | LABS | QUIZZES |
-| --- | --- | --- | --- |
-| 1 | Course overview and mechanics, basics of information | &nbsp; |
-| 2 | Digital abstraction, combinational logic, voltage-based encoding | &nbsp; |
-| 3 | CMOS technology, gate design, timing | &nbsp; |
-| 4 | Canonical forms; synthesis, simplification | &nbsp; |
-| 5 | Sequential logic | Lab 1 (CMOS) due | Quiz 1 |
-| 6 | Storage elements, finite state machines | &nbsp; |
-| 7 | Synchronization, metastability | Lab 2 (Adder) due | &nbsp; |
-| 8 | Pipelining; throughput and latency | &nbsp; |
-| 9 | Case study: multipliers | Lab 3 (ALU) due | &nbsp; |
-| 10 | Beta instruction set architecture, compilation | &nbsp; | Quiz 2 |
-| 11 | Machine language programming issues | &nbsp; |
-| 12 | Models of computation, programmable architectures | Lab 4 (Turing machine) due | &nbsp; |
-| 13 | Stacks and procedures | &nbsp; |
-| 14 | Non-pipelined Beta implementation | Lab 5 (Assembly language) due | &nbsp; |
-| 15 | Multilevel memories; locality, performance, caches | &nbsp; |
-| 16 | Cache design issues | &nbsp; | Quiz 3 |
-| 17 | Virtual memory: mapping, protection, contexts | &nbsp; |
-| 18 | Virtual machines: timesharing, OS kernels, supervisor calls | Lab 6 (Beta) due | &nbsp; |
-| 19 | Devices and interrupt handlers, preemptive interrupts, real-time issues | &nbsp; |
-| 20 | Communication issues: busses, networks, protocols | Lab 7 (Trap handler) due | Quiz 4 |
-| 21 | Communicating processes: semaphores, synchronization, atomicity, deadlock | &nbsp; |
-| 22 | Pipelined Beta implementation, bypassing | &nbsp; |
-| 23 | Pipeline issues: delay slots, annulment, exceptions | Lab 8 (Tiny OS) due | Quiz 5 |
-| 24 | Parallel processing, shared memory, cache coherence, consistency criteria | &nbsp; |
-| 25 | Wrapup lecture | Project due |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LABS
+{{< thclose >}}
+{{< thopen >}}
+QUIZZES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Course overview and mechanics, basics of information
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Digital abstraction, combinational logic, voltage-based encoding
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+CMOS technology, gate design, timing
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Canonical forms; synthesis, simplification
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Sequential logic
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 (CMOS) due
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Storage elements, finite state machines
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Synchronization, metastability
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2 (Adder) due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Pipelining; throughput and latency
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Case study: multipliers
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 (ALU) due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Beta instruction set architecture, compilation
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Machine language programming issues
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Models of computation, programmable architectures
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4 (Turing machine) due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Stacks and procedures
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Non-pipelined Beta implementation
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 5 (Assembly language) due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Multilevel memories; locality, performance, caches
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Cache design issues
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Virtual memory: mapping, protection, contexts
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Virtual machines: timesharing, OS kernels, supervisor calls
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6 (Beta) due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Devices and interrupt handlers, preemptive interrupts, real-time issues
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Communication issues: busses, networks, protocols
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 7 (Trap handler) due
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Communicating processes: semaphores, synchronization, atomicity, deadlock
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Pipelined Beta implementation, bypassing
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Pipeline issues: delay slots, annulment, exceptions
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 8 (Tiny OS) due
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Parallel processing, shared memory, cache coherence, consistency criteria
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Wrapup lecture
+{{< tdclose >}}
+{{< tdopen >}}
+Project due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

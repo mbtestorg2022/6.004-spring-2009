@@ -10,17 +10,108 @@ CMOS = complementary metal-oxide-semiconductor
 ALU = arithmetic logic unit  
 OS = operating system
 
-| LAB # | TOPICS |
-| --- | --- |
-| 1 | CMOS ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab01)) |
-| 2 | Adder ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab02)) |
-| 3 | ALU ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab03)) |
-| 4 | Turing machine ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab04)) |
-| 5 | Assembly language ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab05)) |
-| 6 | Beta ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab06)) |
-| 7 | Trap handler ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab07)) |
-| 8 |  {{< br >}}{{< br >}} Tiny OS ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab08)) {{< br >}}{{< br >}} Writeup ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab08_writeup)) {{< br >}}{{< br >}}  |
-| &nbsp; | Project ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_project)) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LAB #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+CMOS ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Adder ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+ALU ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Turing machine ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Assembly language ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Beta ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Trap handler ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Tiny OS ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab08))
+
+Writeup ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab08_writeup))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Project ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_project))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Tools
 -----
