@@ -127,6 +127,6 @@ Beta documentation ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_beta_doc))
 
 Summary of instruction formats ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_beta_summary))
 
-Unpipelined Beta (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit6_004s09_lab_beta_diagram))
+Unpipelined Beta ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_beta_diagram))
 
 5-stage pipelined Beta ([PDF]({{< baseurl >}}/resources/mit6_004s09_lab_pbeta_diagram))
